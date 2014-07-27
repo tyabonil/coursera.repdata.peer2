@@ -125,7 +125,7 @@ Next we plot the economic impact.
 
 
 ```r
-par(mfrow = c(2, 1))
+par(mfrow = c(2, 1), mar=c(10, 4, 4, 2))
 barplot(names.arg=evimpact.prop[,1], height=evimpact.prop[,2], cex.names=1, las=2, main="Property Damage ($) by Event Type")
 barplot(names.arg=evimpact.crop[,1], height=evimpact.crop[,2], cex.names=1, las=2, main="Crop Damage ($) by Event Type")
 ```
